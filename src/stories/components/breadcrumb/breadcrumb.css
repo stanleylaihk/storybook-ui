@@ -1,0 +1,21 @@
+.breadcrumb a {
+  cursor: pointer;
+  color: #aeaeae;
+}
+.breadcrumb a:hover {
+  color: #3b6eee;
+}
+.breadcrumb a + a {
+  position: relative;
+  padding-left: 32px;
+}
+.breadcrumb a + a::before {
+  content: "/";
+  position: absolute;
+  top: 0;
+  left: 14px;
+  color: #aeaeae;
+}
+.breadcrumb a:last-child {
+  color: #3b6eee;
+}

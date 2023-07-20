@@ -1,0 +1,72 @@
+.tooltip {
+  border-radius: 5px;
+  background: #12192c;
+  padding: 16px;
+  color: #fff;
+  position: relative;
+  width: 240px;
+}
+.tooltip-icon {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+.tooltip-icon svg {
+  height: 24px;
+  width: 24px;
+  stroke: #fff;
+}
+.tooltip-icon ~ .tooltip-header {
+  margin-left: 40px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+.tooltip-icon ~ .tooltip-body {
+  margin-left: 40px;
+  font-size: 12px;
+}
+
+.tooltip-top::after {
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  margin-left: -5px;
+  content: "";
+  border-top: 15px solid #12192c;
+  border-right: 10px solid transparent;
+  border-bottom: none;
+  border-left: 10px solid transparent;
+}
+.tooltip-right::after {
+  position: absolute;
+  left: -15px;
+  top: 50%;
+  margin-top: -5px;
+  content: "";
+  border-top: 10px solid transparent;
+  border-right: 15px solid #12192c;
+  border-bottom: 10px solid transparent;
+  border-left: none;
+}
+.tooltip-bottom::after {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  margin-left: -5px;
+  content: "";
+  border-top: none;
+  border-right: 10px solid transparent;
+  border-bottom: 15px solid #12192c;
+  border-left: 10px solid transparent;
+}
+.tooltip-left::after {
+  position: absolute;
+  right: -15px;
+  top: 50%;
+  margin-top: -5px;
+  content: "";
+  border-top: 10px solid transparent;
+  border-right: none;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #12192c;
+}
