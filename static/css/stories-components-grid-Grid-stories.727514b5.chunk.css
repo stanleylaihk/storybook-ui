@@ -1,0 +1,38 @@
+.container {
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  height: 100%;
+  min-height: 400px;
+  background: #f3f3ee;
+  min-width: 68px;
+}
+.container-desktop {
+  width: 1440px;
+}
+
+.container-desktop .row {
+  gap: 20px;
+}
+.container-desktop .col {
+  width: 88px;
+}
+.container-tablet .row {
+  gap: 20px;
+}
+.container-tablet .col {
+  width: 78px;
+}
+.container-mobile .row {
+  gap: 16px;
+}
+.container-mobile .col {
+  width: 68px;
+}
+
+
+/*# sourceMappingURL=stories-components-grid-Grid-stories.727514b5.chunk.css.map*/

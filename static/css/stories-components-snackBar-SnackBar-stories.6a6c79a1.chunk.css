@@ -1,0 +1,82 @@
+.snackBar {
+  display: flex;
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.snackBar::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 100%;
+  content: "";
+}
+
+.snackBar-header {
+  text-transform: capitalize;
+}
+.snackBar-body {
+  color: #aeaeae;
+}
+.snackBar-icon {
+  padding: 0px 16px 0 8px;
+}
+.snackBar-close {
+  padding-left: 16px;
+}
+.snackBar-close svg {
+  stroke: #aeaeae;
+  cursor: pointer;
+}
+
+.snackBar-success::before {
+  background-color: #51b64f;
+}
+.snackBar-success .snackBar-header {
+  color: #51b64f;
+}
+.snackBar-success .snackBar-icon svg {
+  fill: #51b64f;
+  stroke: #fff;
+}
+
+.snackBar-warning::before {
+  background-color: #fbd432;
+}
+.snackBar-warning .snackBar-header {
+  color: #fbd432;
+}
+.snackBar-warning .snackBar-icon svg {
+  fill: #fbd432;
+  stroke: #fff;
+}
+
+.snackBar-error::before {
+  background-color: #fd4332;
+}
+.snackBar-error .snackBar-header {
+  color: #fd4332;
+}
+.snackBar-error .snackBar-icon svg {
+  fill: #fd4332;
+  stroke: #fff;
+}
+
+.snackBar-information::before {
+  background-color: #3b6eee;
+}
+.snackBar-information .snackBar-header {
+  color: #3b6eee;
+}
+.snackBar-information .snackBar-icon svg {
+  fill: #3b6eee;
+  stroke: #fff;
+}
+
+
+/*# sourceMappingURL=stories-components-snackBar-SnackBar-stories.6a6c79a1.chunk.css.map*/

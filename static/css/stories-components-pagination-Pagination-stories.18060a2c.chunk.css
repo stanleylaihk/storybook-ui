@@ -1,0 +1,36 @@
+.pagination {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.page-item {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: #12192c;
+}
+
+.page-link {
+  display: flex;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  color: #12192c;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-link.active {
+  background: #3b6eee;
+  color: #fff;
+}
+
+.page-link:hover {
+  background: #e2eafe;
+  color: #3b6eee;
+}
+
+
+/*# sourceMappingURL=stories-components-pagination-Pagination-stories.18060a2c.chunk.css.map*/

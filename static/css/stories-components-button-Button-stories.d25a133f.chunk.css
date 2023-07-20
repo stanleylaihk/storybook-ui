@@ -1,0 +1,120 @@
+.btn {
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.btn-sm {
+  height: 32px;
+  line-height: 32px;
+  min-width: 100px;
+  font-size: 16px;
+}
+.btn-sm svg {
+  height: 20px;
+  width: 20px;
+}
+.btn-md {
+  height: 42px;
+  line-height: 42px;
+  min-width: 140px;
+  font-size: 20px;
+}
+.btn-md svg {
+  height: 24px;
+  width: 24px;
+}
+.btn-lg {
+  height: 52px;
+  line-height: 52px;
+  min-width: 160px;
+  font-size: 24px;
+}
+.btn-lg svg {
+  height: 28px;
+  width: 28px;
+}
+
+.btn-sm.btn-icon {
+  min-width: 0px !important;
+  width: 32px;
+  border-radius: 50%;
+}
+
+.btn-md.btn-icon {
+  min-width: 0px !important;
+  width: 42px;
+  border-radius: 50%;
+}
+
+.btn-lg.btn-icon {
+  min-width: 0px !important;
+  width: 52px;
+  border-radius: 50%;
+}
+
+.btn-solid {
+  background: #3b6eee;
+  color: #f2f5ff;
+  border: 1px solid #3b6eee;
+}
+.btn-solid:hover {
+  background: #b6c9f8;
+  border: 1px solid #b6c9f8;
+}
+.btn-solid:active {
+  background: #12192c;
+  border: 1px solid #12192c;
+}
+.btn-solid:disabled {
+  background: #aeaeae;
+  color: #9f9f9f;
+  border: 1px solid #aeaeae;
+  cursor: default;
+}
+
+.btn-outline {
+  color: #3b6eee;
+  background: #fff;
+  border: 1px solid #3b6eee;
+}
+.btn-outline:hover {
+  background: #f2f5ff;
+  border: 1px solid #3b6eee;
+}
+.btn-outline:active {
+  background: #b6c9f8;
+  border: 1px solid #3b6eee;
+}
+.btn-outline:disabled {
+  background: #fff;
+  color: #9f9f9f;
+  border: 1px solid #aeaeae;
+  cursor: default;
+}
+
+.btn-text {
+  color: #3b6eee;
+  background: #fff;
+  border: 1px solid #fff;
+}
+.btn-text:hover {
+  background: #f2f5ff;
+  border: 1px solid #f2f5ff;
+}
+.btn-text:active {
+  background: #b6c9f8;
+  border: 1px solid #b6c9f8;
+}
+.btn-text:disabled {
+  background: #fff;
+  color: #9f9f9f;
+  border: 1px solid #fff;
+  cursor: default;
+}
+
+
+/*# sourceMappingURL=stories-components-button-Button-stories.d25a133f.chunk.css.map*/

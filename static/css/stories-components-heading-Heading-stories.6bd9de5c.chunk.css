@@ -1,0 +1,50 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 84px;
+  line-height: 96px;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 64px;
+  line-height: 76px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+
+/*# sourceMappingURL=stories-components-heading-Heading-stories.6bd9de5c.chunk.css.map*/

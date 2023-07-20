@@ -1,0 +1,31 @@
+.badge {
+  height: 38px;
+  line-height: 38px;
+  border-radius: 21px;
+  padding: 4px 16px;
+  min-width: 80px;
+  text-align: center;
+}
+
+.badge-primary {
+  background: #b6c9f8;
+  color: #3b6eee;
+}
+
+.badge-success {
+  background: #dfffde;
+  color: #51b64f;
+}
+
+.badge-warning {
+  background: #fffae0;
+  color: #fbd432;
+}
+
+.badge-error {
+  background: #fff2f0;
+  color: #fd4332;
+}
+
+
+/*# sourceMappingURL=stories-components-badge-Badge-stories.b96a4c3a.chunk.css.map*/
